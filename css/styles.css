@@ -4,7 +4,7 @@ body,
 html {
     height: 100%;
     font-family: 'Raleway', sans-serif;
-    background-color: #f2d7c4;
+    background-color: #f0e7e1;
 }
 
 
@@ -26,12 +26,12 @@ html {
 }
 
 .navbar-default .navbar-nav>li>a {
-    color: #f2d7c4;
+    color: #f0e7e1;
 }
 
 .navbar-default .navbar-nav>li>a:hover,
 .navbar-default .navbar-nav>li>a:focus {
-    background-color: #f2d7c4;
+    background-color: #f0e7e1;
 }
 
 .navbar,
@@ -44,11 +44,11 @@ html {
 
 .nav li {
     display: inline;
-    color: #f2d7c4;
+    color: #f0e7e1;
 }
 
 .navbar-default .navbar-nav>li>a {
-    color: #f2d7c4;
+    color: #f0e7e1;
 }
 
 .navbar-default .navbar-nav li a:hover {
@@ -88,7 +88,7 @@ html {
 }
 
 .cover-text p {
-    color: #f2d7c4;
+    color: #f0e7e1;
 }
 
 
@@ -133,7 +133,7 @@ html {
     overflow: hidden;
     background: #4a5d71;
     background: rgba(74, 93, 113, 0.75);
-    color: #f2d7c4;
+    color: #f0e7e1;
     min-height: 600px;
 }
 
@@ -158,7 +158,7 @@ html {
 #page-wrap {
     font-size: 65%;
     width: 600px;
-    background: #f2d7c4;
+    background: #f0e7e1;
     padding: 20px 50px 20px 50px;
     /*margin: 0 auto;*/
     min-height: 450px;
@@ -272,7 +272,7 @@ footer {
     padding: 1em;
     margin-top: 40px;
     background-color: #090d16;
-    color: #f2d7c4;
+    color: #f0e7e1;
 }
 
 footer p {
@@ -285,7 +285,7 @@ footer a {
 }
 
 footer a:hover {
-    background-color: #f2d7c4;
+    background-color: #f0e7e1;
     color: #090d16;
     text-decoration: none;
 }
