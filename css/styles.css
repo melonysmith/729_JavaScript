@@ -1,0 +1,321 @@
+/* main */
+
+body,
+html {
+    height: 100%;
+    font-family: 'Raleway', sans-serif;
+    background-color: #f2d7c4;
+}
+
+
+/* navbar */
+
+.navbar {
+    position: relative;
+    top: 0;
+    width: 100%;
+    border: none;
+}
+
+.navbar-default {
+    background-color: #090d16;
+}
+
+.navbar-default .navbar-brand {
+    color: #4a5d71;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #f2d7c4;
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+    background-color: #f2d7c4;
+}
+
+.navbar,
+.navbar-default {
+    border-radius: 0;
+    border: none;
+    margin-bottom: 0;
+    min-height: 80px;
+}
+
+.nav li {
+    display: inline;
+    color: #f2d7c4;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #f2d7c4;
+}
+
+.navbar-default .navbar-nav li a:hover {
+    transition: 0.5s all linear;
+    height: 100%;
+}
+
+
+/* navbar links */
+
+
+/* cover photo */
+
+.cover-image {
+    margin: 0 auto;
+    background-image: url("../img/cover.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+/* cover text */
+
+.cover-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cover-text h1 {
+    color: #4a5d71
+}
+
+.cover-text p {
+    color: #f2d7c4;
+}
+
+
+/* main content, home page */
+
+.page {
+    margin: 20px 0
+}
+
+.wrapper {
+    max-width: 1160px;
+    margin: 0 auto;
+    position: relative;
+    padding: 0 20px;
+    min-height: 600px;
+}
+
+.content-wrapper {
+    float: left;
+    width: 100%;
+}
+
+.content {
+    margin-right: 320px;
+    padding: 1em;
+    clear: both;
+    overflow: auto;
+    background: #4a5d71;
+    background: rgba(74, 93, 113, 0.5);
+    min-height: 600px;
+}
+
+
+/* sidebar content, main page */
+
+.sidebar {
+    position: relative;
+    width: 320px;
+    margin-left: -320px;
+    padding: 1em;
+    float: right;
+    overflow: hidden;
+    background: #4a5d71;
+    background: rgba(74, 93, 113, 0.75);
+    color: #f2d7c4;
+    min-height: 600px;
+}
+
+
+/* about page content */
+
+.about-text {
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.about-li {
+    padding-bottom: .5em;
+}
+
+
+/* contact page, form */
+
+
+/* html5 validation */
+
+#page-wrap {
+    font-size: 65%;
+    width: 600px;
+    background: #f2d7c4;
+    padding: 20px 50px 20px 50px;
+    /*margin: 0 auto;*/
+    min-height: 450px;
+    height: auto !important;
+    height: 500px;
+}
+
+#contact-area {
+    width: 500px;
+    margin-top: 25px;
+}
+
+#contact-area input,
+#contact-area textarea {
+    padding: 5px;
+    width: 400px;
+    font-family: Helvetica, sans-serif;
+    font-size: 1.4em;
+    margin: 0px 0px 5px 0px;
+    border: 2px solid #ccc;
+}
+
+#contact-area textarea {
+    height: 100px;
+}
+
+#contact-area textarea:focus,
+#contact-area input:focus {
+    border: 2px solid #4a5d71;
+}
+
+#contact-area input.submit-button {
+    width: 100px;
+    float: left;
+}
+
+label {
+    float: left;
+    text-align: left;
+    margin-right: 15px;
+    width: 100px;
+    padding-top: 5px;
+    font-size: 1.4em;
+}
+
+#contact-area textarea:required,
+#contact-area input:required {
+    border: 2px solid darkslategray;
+}
+
+#contact-area textarea:invalid,
+#contact-area input:invalid {
+    border: 2px solid salmon;
+}
+
+#contact-area textarea:valid,
+#contact-area input:valid {
+    border: 2px solid palegreen;
+}
+
+
+/* javascript validation */
+
+#success_message {
+    display: none;
+}
+
+.form-group #form_name:invalid {
+    border: 2px solid salmon;
+}
+
+.form-group #form_lastname:invalid {
+    border: 2px solid salmon;
+}
+
+.form-group #form_email:invalid {
+    border: 2px solid salmon;
+}
+
+.form-group #form_message:invalid {
+    border: 2px solid salmon;
+}
+
+.form-group #form_name:valid {
+    border: 2px solid palegreen;
+}
+
+.form-group #form_lastname:valid {
+    border: 2px solid palegreen;
+}
+
+.form-group #form_email:valid {
+    border: 2px solid palegreen;
+}
+
+.form-group #form_message:valid {
+    border: 2px solid palegreen;
+}
+
+
+/* contact page, google map */
+
+.gMap {
+    margin-top: 25px;
+}
+
+
+/* footer */
+
+footer {
+    padding: 1em;
+    margin-top: 40px;
+    background-color: #090d16;
+    color: #f2d7c4;
+}
+
+footer p {
+    text-align: center;
+}
+
+footer a {
+    color: #4a5d71;
+    transition: 0.5s all linear;
+}
+
+footer a:hover {
+    background-color: #f2d7c4;
+    color: #090d16;
+    text-decoration: none;
+}
+
+
+/* media queries */
+
+
+/* will drop sidebar content below main content on smaller devices */
+
+@media only screen and (max-width: 1024px) {
+    .content {
+        width: 100%;
+        float: left;
+    }
+    .sidebar {
+        width: 100%;
+        float: right;
+        margin-top: 2em;
+    }
+    footer {
+        margin-top: 100%;
+    }
+}
+
+
+/* center About page heading ("bullets info:") on smaller devices */
+
+@media only screen and (max-width: 1024px) {
+    h2 {
+        text-align: center;
+    }
+}
