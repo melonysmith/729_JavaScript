@@ -4,7 +4,7 @@
 $from = '729 Solutions Test <smith.melonya@gmail.com>';
 
 // email address that will receive the email with the output of the form
-$sendTo = 'Melony Smith <smith.melonya@gmail.com>';
+$sendTo = 'Nikki Gagliardo <nikki.gagliardo@729solutions.com>';
 
 // email subject
 $subject = 'New message from contact form!';
